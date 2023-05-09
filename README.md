@@ -13,8 +13,13 @@ This repository contains a Python implementation of a K-Nearest Neighbors (KNN) 
 
 Run the `breast_cancer_classifier.py` file to train and test the KNN classifier and generate the validation accuracy plot. You can modify the `test_size` and `random_state` parameters in the `train_test_split()` function to change the size of the validation set and the random seed for the data split.
 
-```sh
-python breast_cancer_classifier.py
+To run the script, simply execute the `breast_cancer_classifier.py` file:
+
+$ python breast_cancer_classifier.py
+
+The output should show the validation accuracy plot and the optimal value of 'k'.
+
+![image](https://user-images.githubusercontent.com/27536166/236980332-085cceb7-658f-4242-bf83-1edaf9cfdefa.png)
 
 ## Contributing
 
